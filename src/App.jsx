@@ -1,4 +1,5 @@
 import data from './data.json'
+import ArtistList from './components/ArtistList.jsx';
 import Main from './components/Main.jsx'
 import './App.css'
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
     <Main data = {data} />
+    <ArtistList artists = {data.artists} />
     </>
   )
 }
