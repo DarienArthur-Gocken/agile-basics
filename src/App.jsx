@@ -11,7 +11,6 @@ function App() {
     <>
     <Main data = {data} />
     <ArtistList artists = {data.artists} />
-    <ArtistCard props = {data.artists} />
     </>
   )
 }

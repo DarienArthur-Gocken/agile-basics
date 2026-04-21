@@ -1,6 +1,6 @@
 import AlbumItem from "./AlbumItem";
 
-export default function ArtistCard({props}) {
+export default function ArtistCard({ props }) {
     return (
         <article className="artist-entry">
             <div className="artist-info">
@@ -10,8 +10,8 @@ export default function ArtistCard({props}) {
             <div className="artist-bio">
                 <p className="artist-bio-content">{props.bio}</p>
             </div>
-        {props.map((props) => (
-            <AlbumItem key = {props.name} props = {props} />
+        {props.albums && props.albums.map((album) => (
+            <AlbumItem key = {album.name} props = {album} />
         ))}
         </article>
     )
