@@ -1,0 +1,10 @@
+.record-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.record-description .record-title {
+    padding: 30px;
+    margin: 10px;
+}

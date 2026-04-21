@@ -1,3 +1,5 @@
+import './Main.css'
+
 export default function Main({ data }) {
     return (
         <main className="record-class">
@@ -9,9 +11,9 @@ export default function Main({ data }) {
                 Founded in {data.founded} and currently based in {data.city}, {data.label} is a record label dedicated to it's artists and pushes to let them pursue their passions.
             </p>
 
-            <quote className="record-tagline">
+            <p className="record-tagline">
                 {data.tagline}
-            </quote>
+            </p>
         </main>
     )
 }
