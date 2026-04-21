@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import data from './data.json'
+import Main from './components/Main.jsx'
 import './App.css'
 
-
 function App() {
-  const [count, setCount] = useState(0)
   console.log(data);
+  
   return (
     <>
+    <Main data = {data} />
     </>
   )
 }
