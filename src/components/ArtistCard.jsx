@@ -11,7 +11,7 @@ export default function ArtistCard({ props }) {
                 <p className="artist-bio-content">{props.bio}</p>
             </div>
         {props.albums && props.albums.map((album) => (
-            <AlbumItem key = {album.name} props = {album} />
+            <AlbumItem key = {album.title} props = {album} />
         ))}
         </article>
     )
