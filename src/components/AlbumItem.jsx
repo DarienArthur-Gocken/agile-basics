@@ -1,4 +1,6 @@
-export default function AlbumItem({props}) {
+import './AlbumItem.css';
+
+export default function AlbumItem({ props }) {
     return (
         <div className="artist-albums">
             <p className="artist-album-title">{props.title}</p>

@@ -1,0 +1,18 @@
+.artist-albums {
+    background: #f4f3ff;
+    border-left: 4px solid #667eea;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.artist-album-title {
+    margin: 0 0 4px 0;
+    font-weight: 600;
+    color: #333;
+    font-size: 0.95em;
+}
+
+.artist-album-year {
+    margin: 0;
+    color: #999;
+    font-size: 0.82em;
+}
